@@ -1,0 +1,57 @@
+{
+    "version": "1.0",
+    "response": {
+        "outputSpeech": {
+            "type": "SSML",
+            "ssml": "<speak>Drivetime on RTÉ Radio 1</speak>"
+        },
+        "card": {
+            "type": "Standard",
+            "title": "Radio One",
+            "text": "A subtitle for stream one",
+            "image": {
+                "smallImageUrl": "https://s3-eu-west-1.amazonaws.com/rte-alexa-images/small.jpg",
+                "largeImageUrl": "https://s3-eu-west-1.amazonaws.com/rte-alexa-images/lg.jpg"
+            }
+        },
+        "directives": [
+            {
+                "type": "AudioPlayer.Play",
+                "playBehavior": "REPLACE_ALL",
+                "audioItem": {
+                    "stream": {
+                        "url": "https://sgrewind.streamguys1.com/rte/radio1/playlist_dvr_timeshift-10-10.m3u8",
+                        "token": "https://sgrewind.streamguys1.com/rte/radio1/playlist_dvr_timeshift-10-10.m3u8",
+                        "offsetInMilliseconds": 0
+                    },
+                    "metadata": {
+                        "title": "Radio One",
+                        "subtitle": "A subtitle for stream one",
+                        "art": {
+                            "sources": [
+                                {
+                                    "contentDescription": "example image",
+                                    "url": "https://s3.amazonaws.com/cdn.dabblelab.com/img/audiostream-starter-512x512.png",
+                                    "widthPixels": 512,
+                                    "heightPixels": 512
+                                }
+                            ]
+                        },
+                        "backgroundImage": {
+                            "sources": [
+                                {
+                                    "contentDescription": "example image",
+                                    "url": "https://s3.amazonaws.com/cdn.dabblelab.com/img/wayfarer-on-beach-1200x800.png",
+                                    "widthPixels": 1200,
+                                    "heightPixels": 800
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "userAgent": "ask-node/2.1.0 Node/v8.10.0",
+    "sessionAttributes": {}
+}

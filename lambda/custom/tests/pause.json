@@ -1,0 +1,71 @@
+{
+	"version": "1.0",
+	"session": {
+		"new": false,
+		"sessionId": "amzn1.echo-api.session.ca44e35a-29ef-4c38-8ced-ee91bfffc953",
+		"application": {
+			"applicationId": "amzn1.ask.skill.53bc0bfb-bfd1-444d-add3-d0d96b8b5318"
+		},
+		"user": {
+			"userId": "amzn1.ask.account.AH7O47ZDTAXO73QM4M7VANY3DTG6ZYQ362L7XZL74ZKJMNLQOC7AG2646FKV2GVIPN44SBV7QF5KXJHV6RQ3U3ATL2HIAP2FJGEOWWAFWAPXQMOWO6J3Q5ML4DSZUK7RPHM4GH6ZFWBYYBZMSG4FKDIC4V3BYHZCA7KZQHDXIICN6CJ5BMYF7W7646HTE2W7NS34ND7LZ2QB5TY"
+		}
+	},
+	"context": {
+		"AudioPlayer": {
+			"playerActivity": "IDLE"
+		},
+		"Display": {
+			"token": ""
+		},
+		"System": {
+			"application": {
+				"applicationId": "amzn1.ask.skill.53bc0bfb-bfd1-444d-add3-d0d96b8b5318"
+			},
+			"user": {
+				"userId": "amzn1.ask.account.AH7O47ZDTAXO73QM4M7VANY3DTG6ZYQ362L7XZL74ZKJMNLQOC7AG2646FKV2GVIPN44SBV7QF5KXJHV6RQ3U3ATL2HIAP2FJGEOWWAFWAPXQMOWO6J3Q5ML4DSZUK7RPHM4GH6ZFWBYYBZMSG4FKDIC4V3BYHZCA7KZQHDXIICN6CJ5BMYF7W7646HTE2W7NS34ND7LZ2QB5TY"
+			},
+			"device": {
+				"deviceId": "amzn1.ask.device.AGKLT2I226X6IHLPNEJIGYJG3TVRZDC3S5JFHNWY4WKKKD3A5MDXKLO2MTOORKCTTOXC4XGG6T2HOZLNAQTZAHGSP7JCI4RLA4KHEY7LIAS257M24XMW3LJHIGFIH2LREARPWWWHJOJLETFZN75MXM5VM3ZQ",
+				"supportedInterfaces": {
+					"AudioPlayer": {},
+					"Display": {
+						"templateVersion": "1.0",
+						"markupVersion": "1.0"
+					}
+				}
+			},
+			"apiEndpoint": "https://api.amazonalexa.com",
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjUzYmMwYmZiLWJmZDEtNDQ0ZC1hZGQzLWQwZDk2YjhiNTMxOCIsImV4cCI6MTU0MzQyMjc2NywiaWF0IjoxNTQzNDE5MTY3LCJuYmYiOjE1NDM0MTkxNjcsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUdLTFQySTIyNlg2SUhMUE5FSklHWUpHM1RWUlpEQzNTNUpGSE5XWTRXS0tLRDNBNU1EWEtMTzJNVE9PUktDVFRPWEM0WEdHNlQySE9aTE5BUVRaQUhHU1A3SkNJNFJMQTRLSEVZN0xJQVMyNTdNMjRYTVczTEpISUdGSUgyTFJFQVJQV1dXSEpPSkxFVEZaTjc1TVhNNVZNM1pRIiwidXNlcklkIjoiYW16bjEuYXNrLmFjY291bnQuQUg3TzQ3WkRUQVhPNzNRTTRNN1ZBTlkzRFRHNlpZUTM2Mkw3WFpMNzRaS0pNTkxRT0M3QUcyNjQ2RktWMkdWSVBONDRTQlY3UUY1S1hKSFY2UlEzVTNBVEwySElBUDJGSkdFT1dXQUZXQVBYUU1PV082SjNRNU1MNERTWlVLN1JQSE00R0g2WkZXQllZQlpNU0c0RktESUM0VjNCWUhaQ0E3S1pRSERYSUlDTjZDSjVCTVlGN1c3NjQ2SFRFMlc3TlMzNE5EN0xaMlFCNVRZIn19.BmRQDVGvvLgDQGyXnOClACHhSZkc5nuxZcS2Qn2e74uN2jZDih7KAnlBo9ajPQQ7XK3FNiwfmNSiNG50892NAdoptOW2gjOC-20KeOe-HHbZq8-YYMiwj4O4cIJM5UQYCQMG-6df9eQ6FH1MVlIiGyacAfO4AY-zZQNGoopT67Xd34y-pB-5OdU0EJokyH817Dpx9lVw5FeXWGN5WtUDQDm9O4Np_M5igbSFuPUrOvyuOagWtce75b-OQxXa6d_wKdolLv4b2t-lOlH9k7Oivsc-Lcx5k-VGwZ8w-BbVOeKfrEbS2kWNRy-GfnoU4keNF3tSF8pQcyixmoITLoPQ2w"
+		},
+		"Viewport": {
+			"experiences": [
+				{
+					"arcMinuteWidth": 246,
+					"arcMinuteHeight": 144,
+					"canRotate": false,
+					"canResize": false
+				}
+			],
+			"shape": "RECTANGLE",
+			"pixelWidth": 1024,
+			"pixelHeight": 600,
+			"dpi": 160,
+			"currentPixelWidth": 1024,
+			"currentPixelHeight": 600,
+			"touch": [
+				"SINGLE"
+			]
+		}
+	},
+	"request": {
+		"type": "IntentRequest",
+		"requestId": "amzn1.echo-api.request.7458659e-eb38-4546-be96-9a1b1ec5f8c1",
+		"timestamp": "2018-11-28T15:32:47Z",
+		"locale": "en-GB",
+		"intent": {
+			"name": "AMAZON.PauseIntent",
+			"confirmationStatus": "NONE"
+		},
+		"dialogState": "STARTED"
+	}
+}

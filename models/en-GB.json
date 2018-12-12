@@ -1,0 +1,205 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "r. t. e. stream",
+      "intents": [
+        {
+          "name": "PlayStreamIntent",
+          "slots": [],
+          "samples": [
+            "to play",
+            "to start playing",
+            "to start"
+          ]
+        },
+        {
+          "name": "AboutIntent",
+          "slots": [],
+          "samples": [
+            "about",
+            "what is this",
+            "tell me about this"
+          ]
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "help me",
+            "how does this work",
+            "what should i do"
+          ]
+        },
+        {
+          "name": "rewindIntent",
+          "slots": [
+            {
+              "name": "minutes",
+              "type": "AMAZON.NUMBER",
+              "samples": [
+                "back {minutes}",
+                "go back {minutes}"
+              ]
+            }
+          ],
+          "samples": [
+            "go back",
+            "rewind {minutes}",
+            "go back {minutes}",
+            "rewind {minutes} minutes"
+          ]
+        },
+        {
+          "name": "playFromStart",
+          "slots": [],
+          "samples": [
+            "restart",
+            "play from beginning",
+            "go to start",
+            "play from start"
+          ]
+        },
+        {
+          "name": "getLatest",
+          "slots": [
+            {
+              "name": "topic",
+              "type": "topic"
+            }
+          ],
+          "samples": [
+            "{topic}",
+            "latest {topic}",
+            "Get latest {topic}"
+          ]
+        },
+        {
+          "name": "AMAZON.MoreIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateSettingsIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PageUpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PageDownIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PreviousIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollRightIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollDownIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollLeftIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ScrollUpIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "the sport"
+              }
+            },
+            {
+              "name": {
+                "value": "latest news"
+              }
+            },
+            {
+              "name": {
+                "value": "weather"
+              }
+            },
+            {
+              "name": {
+                "value": "sport"
+              }
+            },
+            {
+              "name": {
+                "value": "news",
+                "synonyms": [
+                  "headlines",
+                  "latest news"
+                ]
+              }
+            }
+          ],
+          "name": "topic"
+        }
+      ]
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "rewindIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "minutes",
+              "type": "AMAZON.NUMBER",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.122588911396.409138107629"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "prompts": [
+      {
+        "id": "Elicit.Slot.122588911396.409138107629",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "How many nimutes?"
+          }
+        ]
+      }
+    ]
+  }
+}
